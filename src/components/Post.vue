@@ -1,8 +1,7 @@
 <template>
   <div id="post">
     <img src="assets/logo.png"/>
-    <h2>{{ username }}</h2>
-    <h3>{{ msg }}</h3>
+    <p><span id="username">{{ username }}</span> {{ msg }}</p>
   </div>
 </template>
 
@@ -18,6 +17,9 @@ export default {
 </script>
 
 <style>
+#username {
+  font-weight: bolder;
+}
 body {
     background-color: lightblue;
 }
