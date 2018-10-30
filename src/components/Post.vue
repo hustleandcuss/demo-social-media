@@ -1,6 +1,6 @@
 <template>
   <div id="post">
-    <img src="assets/logo.png"/>
+    <img v-bind:src="imageUrl"/>
     <p><span id="username">{{ username }}</span> {{ msg }}</p>
   </div>
 </template>
@@ -18,6 +18,10 @@ export default {
 
 
 <style>
+img {
+  height: 50px;
+  weight: 50px;
+}
 #username {
   font-weight: bolder;
 }

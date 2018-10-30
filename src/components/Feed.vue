@@ -1,10 +1,10 @@
 <template>
   <div id="feed">
-    <Post imageUrl="assets/logo.png" username="Användarnamn" msg="Hej en dag tjoho"/>
-    <Post imageUrl="assets/logo.png" username="Användarnamn" msg="Hej en dag tjoho"/>
-    <Post imageUrl="assets/logo.png" username="Användarnamn" msg="Hej en dag tjoho"/>
-    <Post imageUrl="assets/logo.png" username="Användarnamn" msg="Hej en dag tjoho"/>
-    <Post imageUrl="assets/logo.png" username="Användarnamn" msg="Hej en dag tjoho"/>
+    <Post imageUrl="../assets/1.jpg" username="Användarnamn" msg="Hej en dag tjoho"/>
+    <Post imageUrl="../assets/2.jpg" username="Användarnamn" msg="Hej en dag tjoho"/>
+    <Post imageUrl="../assets/3.jpg" username="Användarnamn" msg="Hej en dag tjoho"/>
+    <Post imageUrl="../assets/4.jpg" username="Användarnamn" msg="Hej en dag tjoho"/>
+    <Post imageUrl="../assets/5.jpg" username="Användarnamn" msg="Hej en dag tjoho"/>
   </div>
 </template>
 
@@ -20,4 +20,7 @@ export default {
 </script>
 
 <style scoped>
+#feed {
+  text-align: center;
+}
 </style>
