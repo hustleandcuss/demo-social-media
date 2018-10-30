@@ -10,8 +10,15 @@
 
 </script>
 
+
 <style>
 body {
-    background-color: lightblue;
+    background-color: MintCream;
+}
+
+#post {
+    border-bottom: 2px solid silver;
+    color: MidnightBlue ;
+    border-bottom-style: ridge;
 }
 </style>
