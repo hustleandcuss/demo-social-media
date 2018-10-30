@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Post />
+    <Post imageUrl="./assets/png" username="Olivia" msg="HEJ"/>
   </div>
 </template>
 
