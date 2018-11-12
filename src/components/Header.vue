@@ -11,7 +11,12 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-size: 2.5em;
+}
+
 #header {
+  padding-top: 4em;
   padding-left: 2em;
 }
 </style>

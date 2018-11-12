@@ -19,11 +19,18 @@ export default {
 </script>
 
 <style>
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #edfff3;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
