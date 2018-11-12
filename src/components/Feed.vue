@@ -21,5 +21,7 @@ export default {
 <style scoped>
 #feed {
   text-align: center;
+  padding-top: 1em;
+  padding-bottom: 4em;
 }
 </style>
