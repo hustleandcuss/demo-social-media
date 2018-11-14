@@ -1,4 +1,4 @@
-# website
+# Instabam exercise
 
 ## Project setup
 ```
